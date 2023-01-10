@@ -19,6 +19,7 @@ RUN yarn add react-scripts@5.0.1 -g --silent
 RUN yarn add classnames
 RUN yarn add styled-components
 RUN yarn add sass classnames react-icons
+RUN yarn add react-virtualized
 
 # start app
 CMD ["yarn", "start"]
